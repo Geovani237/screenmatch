@@ -1,9 +1,15 @@
 public class Filme {
-    String nome;//atributo do objeto
-    int anoDeLancamento;//atributo do objeto
-    boolean incluidoNoPlano;//atributo do objeto
-    double somaDasAvaliacoes;//atributo do objeto
-    int totalDeAvaliacoes;//atributo do objeto
+    //Atributos do Objeto
+    String nome;
+    int anoDeLancamento;
+    boolean incluidoNoPlano;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
+
+    //Método acessor
+    int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
 
     //Método só vai fazer alguma coisa e não tem algum retorno vamos decladar da seguinte forma:
     void exibeFichaTecnica(){

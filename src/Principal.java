@@ -8,13 +8,13 @@ public class Principal {
 
 //        System.out.println(meuFilme.nome); forma de instanciar Objeto
 //        System.out.println(meuFilme.anoDeLancamento);
+
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(9);
         meuFilme.avalia(5);
         meuFilme.avalia(4);
 
-        System.out.println(meuFilme.somaDasAvaliacoes);
-        System.out.println(meuFilme.totalDeAvaliacoes);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
 
         System.out.println(meuFilme.pegaMedia());
 
