@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         //tipo referência
@@ -5,6 +7,7 @@ public class Principal {
 
         meuFilme.nome = "O poderoso chefão";
         meuFilme.anoDeLancamento = 1970;
+        meuFilme.duracaoEmMinutos = 180;
 
 //        System.out.println(meuFilme.nome); forma de instanciar Objeto
 //        System.out.println(meuFilme.anoDeLancamento);
