@@ -5,17 +5,18 @@ public class Principal {
         //tipo referência
         Filme meuFilme = new Filme(); //parte da esqueda está guardando onde o objeto está a da esquerda, na direira é onde cria o espaço na memória.
 
-        meuFilme.nome = "O poderoso chefão";
-        meuFilme.anoDeLancamento = 1970;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome("The Mathix");
+        meuFilme.setAnoDeLancamento(1999);
+        meuFilme.setDuracaoEmMinutos(135);
+        meuFilme.setIncluidoNoPlano(true);
 
 //        System.out.println(meuFilme.nome); forma de instanciar Objeto
 //        System.out.println(meuFilme.anoDeLancamento);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(9);
-        meuFilme.avalia(5);
-        meuFilme.avalia(4);
+        meuFilme.avalia(9);
+        meuFilme.avalia(8);
 
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
 
