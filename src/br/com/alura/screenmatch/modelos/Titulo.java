@@ -22,7 +22,9 @@ public class Titulo {
     public int getDuracaoEmMinutos(){
         return this.duracaoEmMinutos;
     }
-
+    public String getNome() {
+        return this.nome;
+    }
     public void setNome(String nome) {
         this.nome = nome;
     }

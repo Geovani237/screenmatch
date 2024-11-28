@@ -4,7 +4,12 @@ import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
+    public Principal() {
+    }
+
     public static void main(String[] args) {
         //tipo referência
         Filme meuFilme = new Filme(); //parte da esqueda está guardando onde o objeto está a da esquerda, na direira é onde cria o espaço na memória.
@@ -58,5 +63,19 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        var filmeDoGeovani = new Filme();
+        filmeDoGeovani.setNome("Toy story");
+        filmeDoGeovani.setAnoDeLancamento(2003);
+        filmeDoGeovani.setDuracaoEmMinutos(200);
+        filmeDoGeovani.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filmeDoGeovani);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista " + listaDeFilmes.size());
+        System.out.println("Primeiro filme " + listaDeFilmes.get(2).getNome());
+        System.out.println(listaDeFilmes);
     }
 }
