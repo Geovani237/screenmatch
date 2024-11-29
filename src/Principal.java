@@ -12,10 +12,10 @@ public class Principal {
 
     public static void main(String[] args) {
         //tipo referência
-        Filme meuFilme = new Filme("The Mathix"); //parte da esqueda está guardando onde o objeto está a da esquerda, na direira é onde cria o espaço na memória.
+        Filme meuFilme = new Filme("The Mathix",1999); //parte da esqueda está guardando onde o objeto está a da esquerda, na direira é onde cria o espaço na memória.
 
         //meuFilme.setNome("The Mathix");
-        meuFilme.setAnoDeLancamento(1999);
+        //meuFilme.setAnoDeLancamento(1999);
         meuFilme.setDuracaoEmMinutos(135);
         meuFilme.setIncluidoNoPlano(true);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
@@ -33,18 +33,18 @@ public class Principal {
 
         System.out.println(meuFilme.pegaMedia());
 
-        Serie lost = new Serie();
-        lost.setNome("Lost");
-        lost.setAnoDeLancamento(2000);
+        Serie lost = new Serie("Lost",2000);
+        //lost.setNome("Lost");
+        //lost.setAnoDeLancamento(2000);
         lost.exibeFichaTecnica();
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorEpisodios(50);
         System.out.println("Duração da serie: " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme("Avatar");
+        Filme outroFilme = new Filme("Avatar",2023);
         //outroFilme.setNome("Avatar");
-        outroFilme.setAnoDeLancamento(2023);
+        //outroFilme.setAnoDeLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -64,9 +64,9 @@ public class Principal {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        var filmeDoGeovani = new Filme("Toy story");
+        var filmeDoGeovani = new Filme("Toy story",2003);
         //filmeDoGeovani.setNome("Toy story");
-        filmeDoGeovani.setAnoDeLancamento(2003);
+        //filmeDoGeovani.setAnoDeLancamento(2003);
         filmeDoGeovani.setDuracaoEmMinutos(200);
         filmeDoGeovani.avalia(10);
 

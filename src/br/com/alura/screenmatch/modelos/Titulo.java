@@ -8,7 +8,12 @@ public class Titulo {
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
 
-    //Método acessor
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    //Metodo acessor
     public int getTotalDeAvaliacoes() {
 
         return totalDeAvaliacoes;
