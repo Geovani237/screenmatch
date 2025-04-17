@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeefcefd-d0b5-4051-89c2-9c6a770beb0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +43,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Geovani/dependência/gson-2.10.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Latitude 3480/IdeaProjects/screenmatch/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +108,10 @@
       <updated>1719929968646</updated>
       <workItem from="1732821111361" duration="4115000" />
       <workItem from="1733011238091" duration="914000" />
-      <workItem from="1743669373154" duration="1611000" />
+      <workItem from="1743669373154" duration="1716000" />
+      <workItem from="1743799687891" duration="51000" />
+      <workItem from="1743801678595" duration="4489000" />
+      <workItem from="1744898960459" duration="257000" />
     </task>
     <servers />
   </component>
